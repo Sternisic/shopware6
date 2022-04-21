@@ -1,0 +1,14 @@
+.main-navigation {
+  display: none;
+}
+
+.main-navigation-link:last-child{
+  color: #e79e1e;
+  font-weight: bold;
+}
+
+@include media-breakpoint-up(lg) {
+  .main-navigation {
+    display: inherit;
+  }
+}
