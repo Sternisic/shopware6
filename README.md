@@ -254,3 +254,4 @@ rw local - local read and write access
 ```
 
 Some of these directories like `public` can also be changed to a different flysystem to host the files on s3 for example.
+# shopware6
